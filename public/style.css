@@ -1,0 +1,53 @@
+body {
+	background: #990000;
+	font-family: 'Satisfy', cursive;
+	color: #f3d3b2;
+}
+
+h1{
+	font-size: 5em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 15em;
+  height: 3em;
+  line-height: 130px;
+  animation: type 4s steps(60,end);
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.img-container {
+	width: 355px;
+	height: 360px;
+	position: relative;
+	left: -500px;
+	top: -100px;
+	animation: swift 2s ease-in-out .5s infinite alternate;
+}
+
+@keyframes swift {
+	0% {
+		left: -500px;
+		top: -100px;
+	}
+	50% {
+		left: 400px;
+		top: 100px;
+	}
+  100% {
+    left: 900px;
+    top: 0;
+  }
+}
+
