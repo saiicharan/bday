@@ -4,14 +4,14 @@ body {
 }
 
 h1{
-	font-size: 7em;
+	font-size: 5em;
 	color: #FFFFCC;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
   width: 15em;
   height: 3em;
-  line-height: 170px;
+  line-height: 150px;
   float: left;
   text-align: center;
   animation: type 3s steps(60,end);
